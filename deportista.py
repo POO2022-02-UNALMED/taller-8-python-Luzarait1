@@ -1,6 +1,6 @@
 class Deportista():
-    def __init__(self, añosPracticando):
-        self._deporte = "Futbol"
+    def __init__(self, deporte, añosPracticando):
+        self._deporte = deporte
         self._añosPracticando = añosPracticando
 
     def getDeporte(self):
@@ -13,4 +13,4 @@ class Deportista():
         return self._añosPracticando
     
     def setAñosPracticando(self, añosPracticando):
-        self._añosPracticando = añosPracticando
+        self._añosPracticando
